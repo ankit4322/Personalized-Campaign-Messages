@@ -1,0 +1,17 @@
+# This file contains the folder structure for the project
+
+marketing_assistant/
+├── config/
+│   └── azure_config.py    # Azure OpenAI configuration settings
+├── models/
+│   └── data_models.py     # Data models and constants
+├── prompts/
+│   └── templates.py       # All prompt templates
+├── utils/
+│   └── text_extractor.py  # Utilities for extracting structured data
+├── agents/
+│   ├── campaign_assistant.py  # Main assistant logic
+│   └── message_agent.py       # Message generation logic
+├── workflows/
+│   └── message_workflow.py    # Workflow for message generation
+└── main.py                # Entry point
